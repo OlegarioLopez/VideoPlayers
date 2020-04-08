@@ -24,6 +24,7 @@ public class Reproductor extends AppCompatActivity {
     private boolean playWhenReady = true;
     private int currentWindow = 0;
     private long playbackPosition = 0;
+    private String url;
 
 
     @Override
@@ -31,12 +32,14 @@ public class Reproductor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reproductor);
         playerView = findViewById(R.id.video_view);
+        Bundle extras = getIntent().getExtras();
+        url = extras.getString("url");
     }
 
     private void initializePlayer() {
         player = ExoPlayerFactory.newSimpleInstance(this);
         playerView.setPlayer(player);
-        Uri uri = Uri.parse(getString(R.string.media_url_mp4));
+        Uri uri = Uri.parse(url);
         MediaSource mediaSource = buildMediaSource(uri);
         player.setPlayWhenReady(playWhenReady);
         player.seekTo(currentWindow, playbackPosition);
