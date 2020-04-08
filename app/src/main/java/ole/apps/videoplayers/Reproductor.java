@@ -44,7 +44,7 @@ public class Reproductor extends AppCompatActivity {
     }
     private MediaSource buildMediaSource(Uri uri) {
         DataSource.Factory dataSourceFactory =
-                new DefaultDataSourceFactory(this, "exoplayer-codelab");
+                new DefaultDataSourceFactory(this, "VideoPlayers");
         return new ProgressiveMediaSource.Factory(dataSourceFactory)
                 .createMediaSource(uri);
     }
