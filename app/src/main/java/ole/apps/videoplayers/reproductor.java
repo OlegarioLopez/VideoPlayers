@@ -7,16 +7,21 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.ExoPlayerFactory;
+import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.SimpleExoPlayer;
 import com.google.android.exoplayer2.source.MediaSource;
+import com.google.android.exoplayer2.source.MergingMediaSource;
 import com.google.android.exoplayer2.source.ProgressiveMediaSource;
+import com.google.android.exoplayer2.source.SingleSampleMediaSource;
 import com.google.android.exoplayer2.ui.PlayerView;
 import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
+import com.google.android.exoplayer2.util.MimeTypes;
 import com.google.android.exoplayer2.util.Util;
 
-public class Reproductor extends AppCompatActivity {
+public class reproductor extends AppCompatActivity {
 
 
     private PlayerView playerView;
@@ -41,6 +46,8 @@ public class Reproductor extends AppCompatActivity {
         playerView.setPlayer(player);
         Uri uri = Uri.parse(url);
         MediaSource mediaSource = buildMediaSource(uri);
+
+
         player.setPlayWhenReady(playWhenReady);
         player.seekTo(currentWindow, playbackPosition);
         player.prepare(mediaSource, false, false);

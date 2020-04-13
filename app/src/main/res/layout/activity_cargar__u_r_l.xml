@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Cargar_URL">
+    tools:context=".loaderUrl">
 
     <EditText
         android:id="@+id/edit_text_url_entrada"

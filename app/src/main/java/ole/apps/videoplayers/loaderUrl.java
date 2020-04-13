@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class Cargar_URL extends AppCompatActivity {
+public class loaderUrl extends AppCompatActivity {
     private String url;
     private Button boton_reproducir;
     private EditText edit_text_url_entrada;
@@ -23,10 +23,19 @@ public class Cargar_URL extends AppCompatActivity {
     }
     public void reproducir(View view){
         url=edit_text_url_entrada.getText().toString();
-        Intent intent = new Intent(this, Reproductor.class);
-        intent.putExtra("url", url);
-        startActivity(intent);
 
+        if(url.contains(".mp4")) {
+            Intent intent2 = new Intent(this, reproductor.class);
+            intent2.putExtra("url", url);
+            startActivity(intent2);
+
+
+        }
+        else{
+            Intent intent = new Intent(this, youtubePlayer.class);
+            intent.putExtra("url", url);
+            startActivity(intent);
+        }
 
     }
 }
