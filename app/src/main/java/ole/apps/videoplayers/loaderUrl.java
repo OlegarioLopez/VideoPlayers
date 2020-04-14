@@ -31,6 +31,12 @@ public class loaderUrl extends AppCompatActivity {
 
 
         }
+        else if(url.contains("vimeo"))
+        {
+            Intent intent3 = new Intent(this, vimeoPlayer.class);
+            intent3.putExtra("url", url);
+            startActivity(intent3);
+        }
         else{
             Intent intent = new Intent(this, youtubePlayer.class);
             intent.putExtra("url", url);
