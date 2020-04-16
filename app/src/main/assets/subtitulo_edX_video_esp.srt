@@ -1,0 +1,407 @@
+﻿0
+00:00:10,000 --> 00:00:11,000
+00:00
+
+1
+00:00:12,000 --> 00:00:13,000
+ANANT AGARWAL: Bienvenido a edX.
+
+2
+00:00:14,000 --> 00:00:15,000
+00:01
+
+3
+00:00:16,000 --> 00:00:17,000
+I'm Anant Agarwal, Soy el presidente de edX,
+
+4
+00:00:18,000 --> 00:00:19,000
+00:04
+
+5
+00:00:20,000 --> 00:00:21,000
+Soy profesor de ingenir�a el�ctrica and ciencia computacional
+
+6
+00:00:22,000 --> 00:00:23,000
+00:07
+
+7
+00:00:24,000 --> 00:00:25,000
+en MIT.
+
+8
+00:00:26,000 --> 00:00:27,000
+00:08
+
+9
+00:00:28,000 --> 00:00:29,000
+La formaci�n learning est� revolucionando el mundo.
+
+10
+00:00:30,000 --> 00:00:31,000
+00:11
+
+11
+00:00:32,000 --> 00:00:33,000
+La educaci�n no volver� a ser lo mismo, y edX
+
+12
+00:00:34,000 --> 00:00:35,000
+00:14
+
+13
+00:00:36,000 --> 00:00:37,000
+est� a la vanguardia de esta revoluci�n,
+
+14
+00:00:38,000 --> 00:00:39,000
+00:16
+
+15
+00:00:40,000 --> 00:00:41,000
+as� que cuando realizas cursos de edX en l�nea, eres parte de esta evoluci�n.
+
+16
+00:00:42,000 --> 00:00:43,000
+00:20
+
+17
+00:00:44,000 --> 00:00:45,000
+El aprendizaje en l�nea es el �ltimo democratizador.
+
+18
+00:00:46,000 --> 00:00:47,000
+00:23
+
+19
+00:00:48,000 --> 00:00:49,000
+Cuando aprendes en edX, te unes a una comunidad.
+
+20
+00:00:50,000 --> 00:00:51,000
+00:26
+
+21
+00:00:52,000 --> 00:00:53,000
+Imagina dar una clase con 100,000 o m�s estudiantes, esto es social,
+
+22
+00:00:54,000 --> 00:00:55,000
+00:31
+
+23
+00:00:56,000 --> 00:00:57,000
+y realmente divertido.
+
+24
+00:00:58,000 --> 00:00:59,000
+00:32
+
+25
+00:01:00,000 --> 00:01:01,000
+Creo que disfrutar�s de la experiencia.
+
+26
+00:01:02,000 --> 00:01:03,000
+00:34
+
+27
+00:01:04,000 --> 00:01:05,000
+En edX se trata de personas, no se trata de ganancias.
+
+28
+00:01:06,000 --> 00:01:07,000
+00:37
+
+29
+00:01:08,000 --> 00:01:09,000
+EdX presenta para t�, los mejores cursos de las mejores escuelas y los mejores
+
+30
+00:01:10,000 --> 00:01:11,000
+00:42
+
+31
+00:01:12,000 --> 00:01:13,000
+profesores.
+
+32
+00:01:14,000 --> 00:01:15,000
+00:42
+
+33
+00:01:16,000 --> 00:01:17,000
+Convertirse en miembro de edX es f�cil.
+
+34
+00:01:18,000 --> 00:01:19,000
+00:45
+
+35
+00:01:20,000 --> 00:01:21,000
+SPEAKER 2: We're really excited to have you here.
+
+36
+00:01:22,000 --> 00:01:23,000
+00:47
+
+37
+00:01:24,000 --> 00:01:25,000
+We're going to get you started-- quick, three easy steps, browse,
+
+38
+00:01:26,000 --> 00:01:27,000
+00:51
+
+39
+00:01:28,000 --> 00:01:29,000
+choose, and have some fun.
+
+40
+00:01:30,000 --> 00:01:31,000
+00:53
+
+41
+00:01:32,000 --> 00:01:33,000
+Registration takes seconds, and once you register just browse the courses.
+
+42
+00:01:34,000 --> 00:01:35,000
+00:58
+
+43
+00:01:36,000 --> 00:01:37,000
+When you find something that you like, click it.
+
+44
+00:01:38,000 --> 00:01:39,000
+01:00
+
+45
+00:01:40,000 --> 00:01:41,000
+It's that easy.
+
+46
+00:01:42,000 --> 00:01:43,000
+01:01
+
+47
+00:01:44,000 --> 00:01:45,000
+Choose wisely, you're selecting courses from the best schools
+
+48
+00:01:46,000 --> 00:01:47,000
+01:05
+
+49
+00:01:48,000 --> 00:01:49,000
+all around the world.
+
+50
+00:01:50,000 --> 00:01:51,000
+01:06
+
+51
+00:01:52,000 --> 00:01:53,000
+Make sure to check the prerequisites.
+
+52
+00:01:54,000 --> 00:01:55,000
+01:08
+
+53
+00:01:56,000 --> 00:01:57,000
+Now you can choose your course and you're on your way.
+
+54
+00:01:58,000 --> 00:01:59,000
+01:11
+
+55
+00:02:00,000 --> 00:02:01,000
+Welcome to the club.
+
+56
+00:02:02,000 --> 00:02:03,000
+01:12
+
+57
+00:02:04,000 --> 00:02:05,000
+SPEAKER 3: Now that you've signed up for course, you can view courseware.
+
+58
+00:02:06,000 --> 00:02:07,000
+01:15
+
+59
+00:02:08,000 --> 00:02:09,000
+The courseware is made up of great videos, automated feedback,
+
+60
+00:02:10,000 --> 00:02:11,000
+01:18
+
+61
+00:02:12,000 --> 00:02:13,000
+and cool interactive features, all for self-paced learning.
+
+62
+00:02:14,000 --> 00:02:15,000
+01:22
+
+63
+00:02:16,000 --> 00:02:17,000
+The interactives are designed to help you
+
+64
+00:02:18,000 --> 00:02:19,000
+01:24
+
+65
+00:02:20,000 --> 00:02:21,000
+explore your understanding of key concepts.
+
+66
+00:02:22,000 --> 00:02:23,000
+01:26
+
+67
+00:02:24,000 --> 00:02:25,000
+A big part of edX is getting instant feedback on your answers,
+
+68
+00:02:26,000 --> 00:02:27,000
+01:29
+
+69
+00:02:28,000 --> 00:02:29,000
+frequently in the form of a green check mark.
+
+70
+00:02:30,000 --> 00:02:31,000
+01:31
+
+71
+00:02:32,000 --> 00:02:33,000
+In a lot of questions, you can try as many times
+
+72
+00:02:34,000 --> 00:02:35,000
+01:33
+
+73
+00:02:36,000 --> 00:02:37,000
+as you need to get that right answer.
+
+74
+00:02:38,000 --> 00:02:39,000
+01:35
+
+75
+00:02:40,000 --> 00:02:41,000
+Courses can be tough, we make sure that they're rigorous,
+
+76
+00:02:42,000 --> 00:02:43,000
+01:38
+
+77
+00:02:44,000 --> 00:02:45,000
+but they can also be a lot of fun.
+
+78
+00:02:46,000 --> 00:02:47,000
+01:40
+
+79
+00:02:48,000 --> 00:02:49,000
+A big part of edX is the social aspect.
+
+80
+00:02:50,000 --> 00:02:51,000
+01:42
+
+81
+00:02:52,000 --> 00:02:53,000
+You can be a social as you want on the discussion boards.
+
+82
+00:02:54,000 --> 00:02:55,000
+01:45
+
+83
+00:02:56,000 --> 00:02:57,000
+In our forums, there's an active community.
+
+84
+00:02:58,000 --> 00:02:59,000
+01:47
+
+85
+00:03:00,000 --> 00:03:01,000
+It's not just the professors, students help each other out.
+
+86
+00:03:02,000 --> 00:03:03,000
+01:50
+
+87
+00:03:04,000 --> 00:03:05,000
+A typical course can run a semester length, or about 12 weeks.
+
+88
+00:03:06,000 --> 00:03:07,000
+01:53
+
+89
+00:03:08,000 --> 00:03:09,000
+At the end of that course, if you've met the course requirements,
+
+90
+00:03:10,000 --> 00:03:11,000
+01:56
+
+91
+00:03:12,000 --> 00:03:13,000
+you can get a certificate of mastery.
+
+92
+00:03:14,000 --> 00:03:15,000
+01:58
+
+93
+00:03:16,000 --> 00:03:17,000
+Once you've completed the course, you're part of our group of lifelong learners.
+
+94
+00:03:18,000 --> 00:03:19,000
+02:01
+
+95
+00:03:20,000 --> 00:03:21,000
+ANANT AGARWAL: EdX's mission is to help you get a quality education.
+
+96
+00:03:22,000 --> 00:03:23,000
+02:05
+
+97
+00:03:24,000 --> 00:03:25,000
+EdX will increase access to learning for students such as yourself worldwide.
+
+98
+00:03:26,000 --> 00:03:27,000
+02:09
+
+99
+00:03:28,000 --> 00:03:29,000
+This is fun, this is exciting, and this is revolutionary.
+
+100
+00:03:30,000 --> 00:03:31,000
+02:13
+
+101
+00:03:32,000 --> 00:05:00,000
+Welcome to edX, come join us.

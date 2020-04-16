@@ -30,6 +30,7 @@ public class reproductor extends AppCompatActivity {
     private int currentWindow = 0;
     private long playbackPosition = 0;
     private String url;
+    private Format subtitleFormat;
 
 
     @Override
@@ -46,11 +47,29 @@ public class reproductor extends AppCompatActivity {
         playerView.setPlayer(player);
         Uri uri = Uri.parse(url);
         MediaSource mediaSource = buildMediaSource(uri);
-
+        MediaSource subtitulo= buildSubtitleMediaSource();
+        MergingMediaSource mergedSource=mergear(mediaSource,subtitulo);
 
         player.setPlayWhenReady(playWhenReady);
         player.seekTo(currentWindow, playbackPosition);
-        player.prepare(mediaSource, false, false);
+        player.prepare(mergedSource, false, false);
+    }
+
+    // Se cargan subtítulos de prueba almacenados en la carpeta assets
+    private MediaSource buildSubtitleMediaSource(){
+        DataSource.Factory dataSourceFactory =
+                new DefaultDataSourceFactory(this, "VideoPlayers");
+         subtitleFormat = Format.createTextSampleFormat(
+                null, // An identifier for the track. May be null.
+                MimeTypes.APPLICATION_SUBRIP, // The mime type. Must be set correctly.
+                 , // Selection flags for the track.
+                null);
+            return new SingleSampleMediaSource.Factory(dataSourceFactory).createMediaSource(Uri.parse("asset:///subtitulo_edX_video_esp.srt"), subtitleFormat, C.TIME_UNSET);
+    }
+    private MergingMediaSource mergear(MediaSource video,MediaSource subtitulo){
+        MergingMediaSource mergedSource =
+                new MergingMediaSource(video, subtitulo);
+        return mergedSource;
     }
     private MediaSource buildMediaSource(Uri uri) {
         DataSource.Factory dataSourceFactory =
